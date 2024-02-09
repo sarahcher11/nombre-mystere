@@ -13,5 +13,10 @@ function hide(element){
     element.style.display='none';
 }
 
+function new_game() { // fonction qui montre l’´ecran de s´election du mode de jeu
+    show(game_selection);
+    hide(game1);
+    hide(game2);
+    }
 
 
