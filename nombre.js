@@ -9,5 +9,9 @@ function show(element){
     element.style.display='';
 }
 
+function hide(element){
+    element.style.display='none';
+}
+
 
 
